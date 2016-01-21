@@ -1,8 +1,8 @@
 
- 
 
-
-
+function wordPuzzle(sentence) {
+  return sentence.replace(/[aeiou]/gi, '-');
+}
 
 
 //User interface logic
